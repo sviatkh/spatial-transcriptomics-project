@@ -1,0 +1,26 @@
+name: r_spatial_analysis
+channels:
+  - conda-forge
+  - bioconda
+  
+dependencies:
+  - python=3.9
+  - conda-forge::r-base
+  - conda-forge::r-irkernel #https://irkernel.github.io/installation/
+  - conda-forge::r-optparse
+  - conda-forge::jupyter
+  - bioconda::bioconductor-ggspavis
+  - bioconda::bioconductor-spatialexperiment
+  - bioconda::bioconductor-scater
+  - conda-forge::r-patchwork
+  - conda-forge::r-pheatmap
+  - bioconductor-scran
+  - conda-forge::r-ggplot2
+  - bioconda::r-spacexr
+  - bioconda::bioconductor-dropletutils
+  - bioconda::bioconductor-biocparallel
+  - conda-forge::r-seurat
+  - conda-forge::r-qs
+  - conda-forge::r-future
+  - conda-forge::r-hdf5r
+  - conda-forge::r-tidyverse

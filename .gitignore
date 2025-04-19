@@ -1,0 +1,6 @@
+data/
+notebooks/*.png
+*.rds
+data/*.rds
+logs.txt
+.DS_Store

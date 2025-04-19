@@ -1,0 +1,32 @@
+# install this into new clean env
+
+bioconda::bioconductor-spatialexperiment
+# bioconda::bioconductor-bayesspace
+bioconda::bioconductor-ggspavis
+bioconda::bioconductor-scater
+conda-forge::r-patchwork
+conda-forge::r-pheatmap
+bioconductor-scran
+conda-forge::r-ggplot2
+bioconda::r-spacexr
+bioconda::bioconductor-dropletutils
+bioconda::bioconductor-biocparallel
+conda-forge::r-seurat
+conda-forge::r-qs
+conda-forge::r-future
+conda-forge::r-hdf5r
+conda-forge::r-tidyverse
+
+# Then manually install the following
+# conda install conda-forge::jupyter
+# conda install conda-forge::r-irkernel
+# conda install conda-forge::r-optparse
+
+
+## not neccsary 
+# conda install bioconda::bioconductor-dropletutils
+# conda install conda-forge::r-seurat
+# conda install bioconda::bioconductor-ggspavis
+# conda install conda-forge::r-patchwork
+# conda install bioconda::bioconductor-biomart
+# conda install bioconda::bioconductor-nnsvg
