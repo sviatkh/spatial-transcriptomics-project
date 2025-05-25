@@ -1,0 +1,37 @@
+project:
+  type: website
+
+website:
+  title: "TBA"
+  navbar:
+    background: "#FFB81C"
+    left:
+      - href: index.qmd
+        text: Home
+      - href : 01_spatial_analysis.R.ipynb
+        text: Spatial preprocessing
+
+  # sidebar: 
+  #   title: "Tools"
+  #   tools: 
+  #     - icon: 
+  #       href: 
+
+  search: true
+  page-footer: "TBA"
+format:
+  html:
+    theme:
+      light: cosmo
+    toc: true
+    code-fold: true
+    code-summary: "Show code"
+    css: styles.css
+    
+    code-overflow: wrap # not to have scrollbars for code
+    code-tools: true # show or hide code
+    lightbox:
+      match: auto
+    grid:
+      sidebar-width: 50px
+      body-width: 1200px
