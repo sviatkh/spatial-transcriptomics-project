@@ -2,13 +2,13 @@ project:
   type: website
 
 website:
-  title: "TBA"
+  title: "Spatial transcriptomics analysis"
   navbar:
-    background: "#FFB81C"
+    background: "#563D82"
     left:
       - href: index.qmd
         text: Home
-      - href : 01_spatial_analysis.R.ipynb
+      - href : notebooks/01_spatial_analysis.R.ipynb
         text: Spatial preprocessing
 
   # sidebar: 
@@ -18,7 +18,7 @@ website:
   #       href: 
 
   search: true
-  page-footer: "TBA"
+  page-footer: "Spatial transcriptomics analysis"
 format:
   html:
     theme:
