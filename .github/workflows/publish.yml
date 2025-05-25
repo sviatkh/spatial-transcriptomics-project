@@ -17,6 +17,11 @@ jobs:
       - name: Set up Quarto
         uses: quarto-dev/quarto-actions/setup@v2
 
+      - name: Prepare Quarto project directory
+        run: |
+              # Copy notebooks into website folder
+              cp notebooks/* website/
+
       - name: Render and Publish
         uses: quarto-dev/quarto-actions/publish@v2
         with:
