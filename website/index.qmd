@@ -1,5 +1,5 @@
 ---
-title: "TBA"
+title: "Spatially resolved cell types and signatures in INPP5D-deficient Alzheimer’s mice"
 ---
 
 # Contents

@@ -8,7 +8,7 @@ website:
     left:
       - href: index.qmd
         text: Home
-      - href : notebooks/01_spatial_analysis.R.ipynb
+      - href : 01_spatial_analysis.R.ipynb
         text: Spatial preprocessing
 
   # sidebar: 
